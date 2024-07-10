@@ -12,11 +12,15 @@
             int a = 17;
             int b = 4;
             int sum = a + b;
+            int subtraction = a - b;
+            int mult = a * b;
             int quotient = a / b;
             int remainder = a % b;
             
             Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}.");
             Console.WriteLine($"{a}+{b} is {sum} ");
+            Console.WriteLine($"{a}-{b} is {subtraction} ");
+            Console.WriteLine($"{a}*{b} is {mult} ");
             
             Console.WriteLine("\nWhat is the radius of your circle");
             double radius = Convert.ToDouble(Console.ReadLine());
